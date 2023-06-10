@@ -1,4 +1,4 @@
-baseURL: "https://sajenim.dev/"
+baseURL: "/"
 title: sajenim
 paginate: 5
 theme: PaperMod

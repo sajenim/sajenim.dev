@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://sajenim.dev/sitemap.xml

@@ -1,5 +1,5 @@
-baseURL: "/"
-title: sajenim
+baseURL: "https://sajenim.dev"
+title: Sajenim
 paginate: 5
 theme: PaperMod
 
@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Sajenim
+  description: "simple blog catologing my hobbies"
   keywords: [Blog, Portfolio, PaperMod]
   author: sajenim
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -44,15 +44,13 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: /assets/favicon.ico
+    favicon16x16: /assets/favicon-16x16.png
+    favicon32x32: /assets/favicon-32x32.png
 
   label:
     text: "[sajenim@fuchsia ~]$"
-    icon: /haskell-logo.png
+    icon: /assets/haskell-logo.png
     iconHeight: 35
 
   # profile-mode
@@ -64,15 +62,6 @@ params:
     imageWidth: 120
     imageHeight: 120
     imageTitle: profile-picture
-    # buttons:
-    #   - name: NixOS
-    #     url: /nixos/
-    #   - name: ErgoMech
-    #     url: /ergomech/
-    #   - name: Vape
-    #     url: /vape/
-    #   - name: Unix
-    #     url: /unixporn/
 
   socialIcons:
     - name: github
@@ -98,7 +87,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/sajenim/sajenim.dev/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -118,22 +107,26 @@ menu:
       name: About
       url: /about/
       weight: 10
+    - identifier: archive
+      name: Archive
+      url: /archive/
+      weight: 20
     - identifier: blog
       name: Blog
       url: /blog/
-      weight: 20
+      weight: 30
     - identifier: projects
       name: Projects
       url: /projects/
-      weight: 30
+      weight: 40
     - identifier: resources
       name: Resources
       url: /resources/
-      weight: 40
+      weight: 50
     - identifier: search
       name: Search
       url: /search/
-      weight: 50
+      weight: 60
 
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma

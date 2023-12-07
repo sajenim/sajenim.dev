@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>sajenim</title>
+    <title>Sajenim</title>
     <link>https://sajenim.dev/</link>
-    <description>Recent content on sajenim</description>
+    <description>Recent content on Sajenim</description>
     <image>
-      <title>sajenim</title>
+      <title>Sajenim</title>
       <url>https://sajenim.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://sajenim.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://sajenim.dev/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://sajenim.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My 1st post</title>
-      <link>https://sajenim.dev/posts/my-first-post/</link>
+      <title>About Me</title>
+      <link>https://sajenim.dev/about/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
-      <guid>https://sajenim.dev/posts/my-first-post/</guid>
-      <description>Desc Text.</description>
+      <guid>https://sajenim.dev/about/</guid>
+      <description>Conservation and Land Management 🌿 Welcome to the green side of sajenim.dev! As a nursery technician, I spend my days nurturing and propagating native flora. It&amp;rsquo;s not just a job; it&amp;rsquo;s a commitment to the environment. Explore with me as I share insights, challenges, and the beauty of working in conservation.
+Electronics and 3D Printing ⚡🖨️ Dive into the world of electrons and layers! Whether I&amp;rsquo;m tinkering with circuits, experimenting with 3D printing projects, or discovering the latest tech trends, this section is all about the fusion of creativity and technology.</description>
     </item>
     
   </channel>
